@@ -1,0 +1,21 @@
+# Répertoire : main.dominante[_main.dominée]
+# Fichier    : main.dominante+[mouvement]_[main.dominée+mouvement]_itérateur
+# Mouvements :
+#  a : déplacement dans le plan
+#  b : rotation dans le plan
+#  c : boucle dans le plan
+#  d : aller-retour dans le plan
+#  e : vibrations dans le plan
+#  k : déplacement avant-arrière
+#  l : rotation axe vertical
+
+blanc               : o/oa__1
+bleu                : b/b__1
+content             : 52/52cc__1
+janvier             : b/bl__1
+noir                : 1/1al__1
+non                 : 1/1dd__1
+octobre             : o/occc__1
+rouge               : 1/1__1
+signer              : 5_5/5cc_5cc_1
+vert                : x/xe__1
