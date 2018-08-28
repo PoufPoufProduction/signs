@@ -5,7 +5,7 @@ nb=0
 lang="fr"
 width=128
 tile=5
-fontsize=12
+fontsize=16
 
 while getopts "h?n:l:w:t:s:" opt; do
     case "$opt" in
@@ -67,19 +67,18 @@ echo " + exporting `cat t_2.txt | wc -l` signs"
 if [ ! -d "tmp" ] ; then mkdir tmp ; fi
 rm -rf tmp/*
 
-IFS=$'\n'
 cmd=""
-for l in `cat t_2.txt` ; do
+while IFS= read -r l; do
 	label=`echo $l | sed -e "s/\([^ ]\+\) .*/\1/g"`
 	file=`echo $l | sed -e "s/[^|]*| \([^ ]\+\) .*/\1/g"`
 	name=`echo $file | sed -e "s|[^/]*/\(.*\)|\1|g"`
 	echo " + processing $label: $file (${width}x${width})"
-	echo inkscape res/img/$file.svg -w $width -h $width -e tmp/$name.png
+	inkscape res/img/$file.svg -w $width -h $width -e tmp/$name.png
 	cmd="$cmd -label $label tmp/$name.png"
-done
+done < "t_2.txt"
 
 echo " + building sign.png"
-echo montage$cmd -tile ${tile}x -pointsize $fontsize sign.png
+montage$cmd -tile ${tile}x -pointsize $fontsize sign.png
 
 
 rm -f t_2.txt
