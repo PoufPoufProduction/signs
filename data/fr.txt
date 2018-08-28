@@ -1,5 +1,8 @@
 # Répertoire : main.dominante[_main.dominée]
 # Fichier    : main.dominante+[mouvement]_[main.dominée+mouvement]_itérateur
+# Positions des mains:
+#  certaines positions ne correspondent à aucune lettre ou chiffre : elles sont alors composées de
+#  la position la plus proche suivie d'une valeur numérique.
 # Mouvements :
 #  a : déplacement dans le plan
 #  b : rotation dans le plan
@@ -8,14 +11,30 @@
 #  e : vibrations dans le plan
 #  k : déplacement avant-arrière
 #  l : rotation axe vertical
+#
+# Evaluation du signe
+#  1 - Compréhension générale du signe
+#  2 - Validité des mains (dominante+dominée)
+#  3 - Validité du mouvement
+#  4 - Lisibilité de l'illustration
+#  5 - Amélioration et ergonomie du personnage (position de tête+émotion)
+#
 
-blanc               : o/oa__1
-bleu                : b/b__1
-content             : 52/52cc__1
-janvier             : b/bl__1
-noir                : 1/1al__1
-non                 : 1/1dd__1
-octobre             : o/occc__1
-rouge               : 1/1__1
-signer              : 5_5/5cc_5cc_1
-vert                : x/xe__1
+# mot				| fichier			| commentaire 
+#--------------------------------------------------------------------------------------------------
+
+blanc   			| o/oa__1			| 
+bleu            	| b/b__1			| 
+content             | 52/52cc__1		| 
+janvier             | b/bl__1			| 
+jaune				| y/ydd__1			| 
+marron				| a/acc__1			| 
+noir                | u/ua__1			| 
+non                 | 1/1dd__1			| 
+octobre             | o/occc__1			| 
+orange				| o2/o2d__1			| 
+rouge               | 1/1__1			| 
+rose				| u/ucc__1			| 
+signer              | 5_5/5cc_5cc_1		| 
+vert                | x/xe__1			| 
+violet				| v/vl__1			| 
