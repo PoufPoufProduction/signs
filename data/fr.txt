@@ -48,7 +48,7 @@ orange              | o2/o2d__1         |
 rouge               | 1/1__1            | 
 rose                | u/ucc__1          | 
 signer              | 5_5/5cc_5cc_1     | 
-soir                | 52l_b2_1          | 
+soir                | 52_b2/52l_b2_1   | 
 vendredi            | v/vc__1           |
 vert                | x/xe__1           | 
 violet              | v/vl__1           | 
