@@ -25,6 +25,7 @@
 
 blanc               | o/oa__1           | 
 bleu                | b/b__1            | 
+bonjour             | b/bb__1           | 
 content             | 52/52cc__1        | 
 décembre            | d/dl__1           | 
 demain              | a/al__2           | 
@@ -46,7 +47,8 @@ nuit                | 52_52/52b_52b_1   |
 octobre             | o/occc__1         | 
 orange              | o2/o2d__1         | 
 rouge               | 1/1__1            | 
-rose                | u/ucc__1          | 
+rose                | u/ucc__1          |
+salut               | b/ba__1           |  
 samedi              | s/sc__1           | 
 signer              | 5_5/5cc_5cc_1     | 
 soir                | 52_b2/52l_b2_1    | 
